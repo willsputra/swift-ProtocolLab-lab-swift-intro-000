@@ -15,6 +15,10 @@
 		7DF33B231D58E1480071BA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF33B221D58E1480071BA68 /* Assets.xcassets */; };
 		7DF33B261D58E1480071BA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF33B241D58E1480071BA68 /* LaunchScreen.storyboard */; };
 		7DF33B311D58E1480071BA68 /* ProtocolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF33B301D58E1480071BA68 /* ProtocolsTests.swift */; };
+		7DF33B3C1D58FF880071BA68 /* BankVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF33B3B1D58FF880071BA68 /* BankVault.swift */; };
+		7DF33B401D59067B0071BA68 /* BankVaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF33B3F1D59067B0071BA68 /* BankVaultTests.swift */; };
+		7DFFECE51D59145100FDFBEE /* Ships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFECE41D59145100FDFBEE /* Ships.swift */; };
+		7DFFECE71D5920A800FDFBEE /* ShipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFECE61D5920A800FDFBEE /* ShipTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,10 @@
 		7DF33B2C1D58E1480071BA68 /* ProtocolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF33B301D58E1480071BA68 /* ProtocolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsTests.swift; sourceTree = "<group>"; };
 		7DF33B321D58E1480071BA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF33B3B1D58FF880071BA68 /* BankVault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankVault.swift; sourceTree = "<group>"; };
+		7DF33B3F1D59067B0071BA68 /* BankVaultTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankVaultTests.swift; sourceTree = "<group>"; };
+		7DFFECE41D59145100FDFBEE /* Ships.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ships.swift; sourceTree = "<group>"; };
+		7DFFECE61D5920A800FDFBEE /* ShipTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShipTests.swift; sourceTree = "<group>"; };
 		8E42710EA65EF7A48D4ED9B3 /* Pods-Protocols.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Protocols.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Protocols/Pods-Protocols.debug.xcconfig"; sourceTree = "<group>"; };
 		B7B3E218DCDD9418103CD571 /* Pods-ProtocolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProtocolsTests/Pods-ProtocolsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,12 +97,9 @@
 		7DF33B1A1D58E1480071BA68 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				7DF33B1B1D58E1480071BA68 /* AppDelegate.swift */,
-				7DF33B1D1D58E1480071BA68 /* ViewController.swift */,
-				7DF33B1F1D58E1480071BA68 /* Main.storyboard */,
-				7DF33B221D58E1480071BA68 /* Assets.xcassets */,
-				7DF33B241D58E1480071BA68 /* LaunchScreen.storyboard */,
-				7DF33B271D58E1480071BA68 /* Info.plist */,
+				7DF33B3B1D58FF880071BA68 /* BankVault.swift */,
+				7DFFECE41D59145100FDFBEE /* Ships.swift */,
+				7DF33B3D1D58FF900071BA68 /* Supporting Files */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -102,10 +107,33 @@
 		7DF33B2F1D58E1480071BA68 /* ProtocolsTests */ = {
 			isa = PBXGroup;
 			children = (
+				7DF33B3F1D59067B0071BA68 /* BankVaultTests.swift */,
+				7DFFECE61D5920A800FDFBEE /* ShipTests.swift */,
+				7DF33B3E1D59066A0071BA68 /* Test Supporting Files */,
+			);
+			path = ProtocolsTests;
+			sourceTree = "<group>";
+		};
+		7DF33B3D1D58FF900071BA68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DF33B1B1D58E1480071BA68 /* AppDelegate.swift */,
+				7DF33B1D1D58E1480071BA68 /* ViewController.swift */,
+				7DF33B1F1D58E1480071BA68 /* Main.storyboard */,
+				7DF33B221D58E1480071BA68 /* Assets.xcassets */,
+				7DF33B241D58E1480071BA68 /* LaunchScreen.storyboard */,
+				7DF33B271D58E1480071BA68 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DF33B3E1D59066A0071BA68 /* Test Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				7DF33B301D58E1480071BA68 /* ProtocolsTests.swift */,
 				7DF33B321D58E1480071BA68 /* Info.plist */,
 			);
-			path = ProtocolsTests;
+			name = "Test Supporting Files";
 			sourceTree = "<group>";
 		};
 		CE63F160C566EAC10BB58080 /* Pods */ = {
@@ -329,7 +357,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DF33B1E1D58E1480071BA68 /* ViewController.swift in Sources */,
+				7DFFECE51D59145100FDFBEE /* Ships.swift in Sources */,
 				7DF33B1C1D58E1480071BA68 /* AppDelegate.swift in Sources */,
+				7DF33B3C1D58FF880071BA68 /* BankVault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +367,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF33B401D59067B0071BA68 /* BankVaultTests.swift in Sources */,
 				7DF33B311D58E1480071BA68 /* ProtocolsTests.swift in Sources */,
+				7DFFECE71D5920A800FDFBEE /* ShipTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
