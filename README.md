@@ -71,7 +71,7 @@ extension SteerAbility {
 
 We've just extended a protocol.
 
-!\[](https://media.giphy.com/media/3o6gaSgLGfCWdCrlCg/giphy.gif)
+![](https://media.giphy.com/media/3o6gaSgLGfCWdCrlCg/giphy.gif)
 
 In that extension (within the curly braces). Create a mutating function (the EXACT one you're asking classes or structs to implement if they were to conform to the `SteerAbility` protocol.) This function should be called `steerInDirection(_:)`. It should have one argument called `direction` of type `Direction`. It should also be marked as a mutating. You're going to now implement this function. In its implementation, you should set the `direction` property to equal the `direction` argument to this function.
 
