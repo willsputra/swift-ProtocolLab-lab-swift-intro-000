@@ -1,13 +1,15 @@
-# Bank & Ships
+# Bank & Ships Lab 
 
 ![](http://i.imgur.com/LbL2oc2.jpg?1)  
 
 > Controlling complexity is the essence of computer programming. -[Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan)
  
+## Overview
+
+In this lab, you'll get practice working with protocols. 
 
 
-
-# Bank Vault
+## Bank Vault
 
 ![](http://i.imgur.com/TXSJip9.jpg?1)
 
@@ -44,7 +46,7 @@ There are tests in the `BankVaultTests.swift` file. Press command + u to run the
 
 ---
 
-# Ships
+## Ships
 
 ![](http://i.imgur.com/6qm04uo.jpg?1)
 
