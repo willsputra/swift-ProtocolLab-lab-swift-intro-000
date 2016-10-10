@@ -15,17 +15,17 @@ class ShipSpec: QuickSpec {
     override func spec() {
         
         describe("Direction enum") {
-            it("Should have four cases, North, South, East and West") {
+            it("Should have four cases, north, south, east and west") {
                 
-                let north = Direction.North
-                let south = Direction.South
-                let east = Direction.East
-                let west = Direction.West
+                let north = Direction.north
+                let south = Direction.south
+                let east = Direction.east
+                let west = Direction.west
                 
-                expect(north).to(equal(Direction.North))
-                expect(south).to(equal(Direction.South))
-                expect(east).to(equal(Direction.East))
-                expect(west).to(equal(Direction.West))
+                expect(north).to(equal(Direction.north))
+                expect(south).to(equal(Direction.south))
+                expect(east).to(equal(Direction.east))
+                expect(west).to(equal(Direction.west))
                 
             }
         }
@@ -35,14 +35,14 @@ class ShipSpec: QuickSpec {
                 
                 // Creating a dummy class called LoveBoat which conforms to the SteerAbility protocol
                 class LoveBoat: SteerAbility {
-                    var direction: Direction = .North
+                    var direction: Direction = .north
                 }
                 
                 var myLoveBoat = LoveBoat()
                 
-                myLoveBoat.steerInDirection(.West)
+                myLoveBoat.steerInDirection(.west)
                 
-                expect(myLoveBoat.direction).to(equal(Direction.West))
+                expect(myLoveBoat.direction).to(equal(Direction.west))
                 
             }
         }
@@ -52,9 +52,9 @@ class ShipSpec: QuickSpec {
                 
                 var mySailBoat = SailBoat()
                 
-                mySailBoat.steerInDirection(.East)
+                mySailBoat.steerInDirection(.east)
                 
-                expect(mySailBoat.direction).to(equal(Direction.East))
+                expect(mySailBoat.direction).to(equal(Direction.east))
                 
             }
         }
@@ -64,9 +64,9 @@ class ShipSpec: QuickSpec {
                 
                 var myRowBoat = RowBoat()
                 
-                myRowBoat.steerInDirection(.South)
+                myRowBoat.steerInDirection(.south)
                 
-                expect(myRowBoat.direction).to(equal(Direction.South))
+                expect(myRowBoat.direction).to(equal(Direction.south))
                 
             }
         }
@@ -76,9 +76,9 @@ class ShipSpec: QuickSpec {
                 
                 var mySteamBoat = SteamBoat()
                 
-                mySteamBoat.steerInDirection(.West)
+                mySteamBoat.steerInDirection(.west)
                 
-                expect(mySteamBoat.direction).to(equal(Direction.West))
+                expect(mySteamBoat.direction).to(equal(Direction.west))
                 
             }
         }

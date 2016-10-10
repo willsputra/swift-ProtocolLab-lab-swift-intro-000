@@ -46,6 +46,16 @@
          </ExecutionAction>
       </PostActions>
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7DF33B2B1D58E1480071BA68"
+               BuildableName = "ProtocolsTests.xctest"
+               BlueprintName = "ProtocolsTests"
+               ReferencedContainer = "container:Protocols.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

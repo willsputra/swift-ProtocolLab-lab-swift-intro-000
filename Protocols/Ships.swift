@@ -8,17 +8,17 @@
 
 
 enum Direction {
-    case North, South, East, West
+    case north, south, east, west
 }
 
 
 protocol SteerAbility {
     var direction: Direction { get set }
-    mutating func steerInDirection(direction: Direction)
+    mutating func steerInDirection(_ direction: Direction)
 }
 
 extension SteerAbility {
-    mutating func steerInDirection(direction: Direction) {
+    mutating func steerInDirection(_ direction: Direction) {
         self.direction = direction
     }
 }
@@ -26,16 +26,16 @@ extension SteerAbility {
 
 class SailBoat: SteerAbility {
     
-    var direction: Direction = .North
+    var direction: Direction = .north
     
 }
 
 class RowBoat: SteerAbility {
     
-    var direction: Direction = .North
+    var direction: Direction = .north
 }
 
 class SteamBoat: SteerAbility {
     
-    var direction: Direction = .North
+    var direction: Direction = .north
 }
