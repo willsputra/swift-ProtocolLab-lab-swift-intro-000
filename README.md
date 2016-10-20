@@ -91,7 +91,7 @@ So provide only an instance property called `direction` of type `Direction` with
 
 **(5)** - Below the `SailBoat` class, create a class called `RowBoat` which also conforms to the `SteerAbility` protocol. Just like in the above instruction, only provide a `direction` property with a default value of `.north`. 
 
-**(6)** - Create a class called `SteamShip` that also conforms to the `SteerAbility` protocol. Just like above, you should only provide a `direction` property with a default value of `.north`. You should not implement the `steerInDirection(_:)` as this already has a default implementation.
+**(6)** - Create a class called `SteamBoat` that also conforms to the `SteerAbility` protocol. Just like above, you should only provide a `direction` property with a default value of `.north`. You should not implement the `steerInDirection(_:)` as this already has a default implementation.
 
 There is a file called `ShipTests.swift` which will make sure you implemented everything correctly. Press command + u to run your tests.
 
